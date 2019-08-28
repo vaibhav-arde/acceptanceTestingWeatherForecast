@@ -1,0 +1,344 @@
+{
+  "uid" : "13ecb1d73ebd8073",
+  "name" : "Verify the whetherForecast Application whether use can able to lunch the application or not",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully.Verify the whetherForecast Application whether use can able to lunch the application or not",
+  "historyId" : "cd55fb2d97121f2506060dd25d04c699",
+  "time" : {
+    "start" : 1566993541551,
+    "stop" : 1566993555323,
+    "duration" : 13772
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I open the url http://localhost:3000/",
+      "time" : {
+        "start" : 1566993541551,
+        "stop" : 1566993541811,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+      "time" : {
+        "start" : 1566993541811,
+        "stop" : 1566993541836,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter the stirling for whetherforecast",
+      "time" : {
+        "start" : 1566993541836,
+        "stop" : 1566993555322,
+        "duration" : 13486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df3a5c46731e501f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566993527842,
+        "stop" : 1566993541551,
+        "duration" : 13709
+      }
+    }, {
+      "uid" : "158f9230df82e23b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566993514069,
+        "stop" : 1566993527842,
+        "duration" : 13773
+      }
+    }, {
+      "uid" : "cb37e591ec7e87c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566993500166,
+        "stop" : 1566993514069,
+        "duration" : 13903
+      }
+    }, {
+      "uid" : "e746722a1f586a7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566993486373,
+        "stop" : 1566993500165,
+        "duration" : 13792
+      }
+    }, {
+      "uid" : "88d31ea32de7828a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566993471912,
+        "stop" : 1566993486373,
+        "duration" : 14461
+      }
+    }, {
+      "uid" : "a4c61ad48cb09907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566992824340,
+        "stop" : 1566992839079,
+        "duration" : 14739
+      }
+    }, {
+      "uid" : "d9beecd00f4180ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566992810543,
+        "stop" : 1566992824340,
+        "duration" : 13797
+      }
+    }, {
+      "uid" : "fdc8798fe79ace98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566992796780,
+        "stop" : 1566992810543,
+        "duration" : 13763
+      }
+    }, {
+      "uid" : "8bb95d0f4784beed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566992782901,
+        "stop" : 1566992796780,
+        "duration" : 13879
+      }
+    }, {
+      "uid" : "d5e20d9b621c8130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566992769127,
+        "stop" : 1566992782901,
+        "duration" : 13774
+      }
+    }, {
+      "uid" : "cd443d5a39a6aac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566992754603,
+        "stop" : 1566992769126,
+        "duration" : 14523
+      }
+    }, {
+      "uid" : "62fe139a4a5c4e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904143585,
+        "stop" : 1566904157388,
+        "duration" : 13803
+      }
+    }, {
+      "uid" : "530f3955253ae2f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904129892,
+        "stop" : 1566904143585,
+        "duration" : 13693
+      }
+    }, {
+      "uid" : "796716c547abc881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904116152,
+        "stop" : 1566904129892,
+        "duration" : 13740
+      }
+    }, {
+      "uid" : "26971ea739afd5c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904102308,
+        "stop" : 1566904116152,
+        "duration" : 13844
+      }
+    }, {
+      "uid" : "b63cc9d1f3eb83e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904088536,
+        "stop" : 1566904102308,
+        "duration" : 13772
+      }
+    }, {
+      "uid" : "a9c0898dbc247aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904071593,
+        "stop" : 1566904088536,
+        "duration" : 16943
+      }
+    }, {
+      "uid" : "5396791449d01fdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903443182,
+        "stop" : 1566903456994,
+        "duration" : 13812
+      }
+    }, {
+      "uid" : "9ff6a744dc16ecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903429506,
+        "stop" : 1566903443182,
+        "duration" : 13676
+      }
+    }, {
+      "uid" : "985d33eef107f4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903415764,
+        "stop" : 1566903429505,
+        "duration" : 13741
+      }
+    }, {
+      "uid" : "c141bcf742213ec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903401908,
+        "stop" : 1566903415763,
+        "duration" : 13855
+      }
+    }, {
+      "uid" : "8bf3b903f38b85fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903388173,
+        "stop" : 1566903401908,
+        "duration" : 13735
+      }
+    }, {
+      "uid" : "255e4f34de03bf13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903372815,
+        "stop" : 1566903388172,
+        "duration" : 15357
+      }
+    }, {
+      "uid" : "1e37e39c5afb22aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903035657,
+        "stop" : 1566903049486,
+        "duration" : 13829
+      }
+    }, {
+      "uid" : "ef2c2c7ce4335f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903021983,
+        "stop" : 1566903035657,
+        "duration" : 13674
+      }
+    }, {
+      "uid" : "30eb3fe0a41cf85a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566903008248,
+        "stop" : 1566903021983,
+        "duration" : 13735
+      }
+    }, {
+      "uid" : "7f234004ccadb396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566902994367,
+        "stop" : 1566903008248,
+        "duration" : 13881
+      }
+    }, {
+      "uid" : "f9a0884323db337a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566902980604,
+        "stop" : 1566902994367,
+        "duration" : 13763
+      }
+    }, {
+      "uid" : "10b802c69655a668",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566902961699,
+        "stop" : 1566902980603,
+        "duration" : 18904
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13ecb1d73ebd8073.json",
+  "parameterValues" : [ "chrome" ]
+}

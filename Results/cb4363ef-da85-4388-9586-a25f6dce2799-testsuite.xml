@@ -1,0 +1,232 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566994714901' stop='1566994733731'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1566994714912' status='passed' stop='1566994719128'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566994714915' status='passed' stop='1566994715709'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994715709' status='passed' stop='1566994715749'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994715750' status='passed' stop='1566994718049'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994718050' status='passed' stop='1566994718998'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994718998' status='passed' stop='1566994719127'>
+                    <name>Then user should see 3hourly forcast for that "1"</name>
+                    <title>Then user should see 3hourly forcast for that "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566994719128' status='passed' stop='1566994722782'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566994719128' status='passed' stop='1566994719427'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994719427' status='passed' stop='1566994719456'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994719456' status='passed' stop='1566994721639'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994721639' status='passed' stop='1566994722578'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994722578' status='passed' stop='1566994722782'>
+                    <name>Then user should see 3hourly forcast for that "2"</name>
+                    <title>Then user should see 3hourly forcast for that "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566994722782' status='passed' stop='1566994726444'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566994722783' status='passed' stop='1566994723070'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994723070' status='passed' stop='1566994723096'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994723096' status='passed' stop='1566994725305'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994725305' status='passed' stop='1566994726220'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994726221' status='passed' stop='1566994726443'>
+                    <name>Then user should see 3hourly forcast for that "3"</name>
+                    <title>Then user should see 3hourly forcast for that "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566994726444' status='passed' stop='1566994730079'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566994726445' status='passed' stop='1566994726707'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994726707' status='passed' stop='1566994726729'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994726729' status='passed' stop='1566994728941'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994728941' status='passed' stop='1566994729864'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994729865' status='passed' stop='1566994730079'>
+                    <name>Then user should see 3hourly forcast for that "4"</name>
+                    <title>Then user should see 3hourly forcast for that "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566994730079' status='passed' stop='1566994733731'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566994730080' status='passed' stop='1566994730352'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994730352' status='passed' stop='1566994730374'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994730374' status='passed' stop='1566994732593'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994732594' status='passed' stop='1566994733511'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566994733512' status='passed' stop='1566994733730'>
+                    <name>Then user should see 3hourly forcast for that "5"</name>
+                    <title>Then user should see 3hourly forcast for that "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

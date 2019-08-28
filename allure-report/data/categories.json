@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Most dominant wind Constion is not matching",
+      "children" : [ {
+        "name" : "Weather app test",
+        "uid" : "a7311f897e6ecf4b",
+        "parentUid" : "f16aac8e482705febd849b1519df3f66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566993665648,
+          "stop" : 1566993681276,
+          "duration" : 15628
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "f16aac8e482705febd849b1519df3f66"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

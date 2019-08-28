@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566905391961' stop='1566905407662'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+    <test-cases>
+        <test-case start='1566905391962' status='passed' stop='1566905392239'>
+            <name>When I open the url http://localhost:3000/</name>
+            <title>When I open the url http://localhost:3000/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1566905392239' status='passed' stop='1566905392263'>
+            <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+            <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1566905392264' status='passed' stop='1566905405768'>
+            <name>When I enter the stirling for whetherforecast</name>
+            <title>When I enter the stirling for whetherforecast</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1566905405768' status='passed' stop='1566905406666'>
+            <name>Then I should able to select a 3</name>
+            <title>Then I should able to select a 3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1566905406666' status='passed' stop='1566905407661'>
+            <name>Then user should get Three hourly forecast for that "3"</name>
+            <title>Then user should get Three hourly forecast for that "3"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

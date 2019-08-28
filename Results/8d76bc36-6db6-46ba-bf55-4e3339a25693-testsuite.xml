@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566904391971' stop='1566904405857'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+    <test-cases>
+        <test-case start='1566904391971' status='passed' stop='1566904392280'>
+            <name>When I open the url http://localhost:3000/</name>
+            <title>When I open the url http://localhost:3000/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1566904392280' status='passed' stop='1566904392309'>
+            <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+            <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1566904392309' status='passed' stop='1566904405856'>
+            <name>When I enter the edinburgh for whetherforecast</name>
+            <title>When I enter the edinburgh for whetherforecast</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,55 @@
+{
+  "uid" : "520c131c7493033f",
+  "name" : "When I enter the glasgow for whetherforecast",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not.When I enter the glasgow for whetherforecast",
+  "historyId" : "19b1affb0767a6219135557c7cf15982",
+  "time" : {
+    "start" : 1566904406154,
+    "stop" : 1566904419581,
+    "duration" : 13427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter the glasgow for whetherforecast"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "520c131c7493033f.json",
+  "parameterValues" : [ "chrome" ]
+}

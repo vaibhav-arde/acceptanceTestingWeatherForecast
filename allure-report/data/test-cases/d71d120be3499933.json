@@ -1,0 +1,55 @@
+{
+  "uid" : "d71d120be3499933",
+  "name" : "When I enter the stirling for whetherforecast",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours..When I enter the stirling for whetherforecast",
+  "historyId" : "2587dd8811445faad7fc688e7544caf4",
+  "time" : {
+    "start" : 1566905376588,
+    "stop" : 1566905390074,
+    "duration" : 13486
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter the stirling for whetherforecast"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d71d120be3499933.json",
+  "parameterValues" : [ "chrome" ]
+}

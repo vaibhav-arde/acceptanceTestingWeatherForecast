@@ -1,0 +1,145 @@
+{
+  "uid" : "5e4ad0b73bb7ce39",
+  "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not.Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+  "historyId" : "c5911c0969d47a9b39dc2fbc5d763f3",
+  "time" : {
+    "start" : 1566905347236,
+    "stop" : 1566905347263,
+    "duration" : 27
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\""
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3ef7bf6f3bc5048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905333575,
+        "stop" : 1566905333602,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "4299526d90fb4016",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905319867,
+        "stop" : 1566905319890,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "6cfa0834f710c7fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905306032,
+        "stop" : 1566905306058,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "28f61741f4c97dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905292256,
+        "stop" : 1566905292285,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "77463a0b63260f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905278320,
+        "stop" : 1566905278355,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "677ccaeaca2402d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904433720,
+        "stop" : 1566904433743,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "5e02eb2ea681c0f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904419948,
+        "stop" : 1566904419978,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "66cd0ac8d5d2fb73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904406133,
+        "stop" : 1566904406154,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "dfbcea7c5b395528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904392280,
+        "stop" : 1566904392309,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "ecf866c08bef6445",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904378526,
+        "stop" : 1566904378551,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "ac44383e1965a32e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904364605,
+        "stop" : 1566904364640,
+        "duration" : 35
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e4ad0b73bb7ce39.json",
+  "parameterValues" : [ "chrome" ]
+}

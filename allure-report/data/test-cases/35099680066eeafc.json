@@ -1,0 +1,55 @@
+{
+  "uid" : "35099680066eeafc",
+  "name" : "When I open the url http://localhost:3000/",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not.When I open the url http://localhost:3000/",
+  "historyId" : "515c6a8bb1405c345e95aeab27c38ed8",
+  "time" : {
+    "start" : 1566904419585,
+    "stop" : 1566904419948,
+    "duration" : 363
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I open the url http://localhost:3000/"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35099680066eeafc.json",
+  "parameterValues" : [ "chrome" ]
+}

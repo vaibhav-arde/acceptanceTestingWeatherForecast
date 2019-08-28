@@ -1,0 +1,81 @@
+{
+  "uid" : "63896b523f1634a5",
+  "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours..Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+  "historyId" : "5bb56c90b1908fea60a47369e356d84e",
+  "time" : {
+    "start" : 1566905407927,
+    "stop" : 1566905407951,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\""
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7bd5eec5b89a54b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905392239,
+        "stop" : 1566905392263,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "44d7939a1fa09e8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905376566,
+        "stop" : 1566905376587,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "46a636e720450af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905360996,
+        "stop" : 1566905361016,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63896b523f1634a5.json",
+  "parameterValues" : [ "chrome" ]
+}

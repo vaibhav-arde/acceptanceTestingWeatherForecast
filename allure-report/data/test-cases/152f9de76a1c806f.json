@@ -1,0 +1,57 @@
+{
+  "uid" : "152f9de76a1c806f",
+  "name" : "Then I should able to select a 3",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours..Then I should able to select a 3",
+  "historyId" : "acccedb9a0cfc9c8926ed8c829ee70a8",
+  "time" : {
+    "start" : 1566905405768,
+    "stop" : 1566905406666,
+    "duration" : 898
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should able to select a 3"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "152f9de76a1c806f.json",
+  "parameterValues" : [ "chrome" ]
+}

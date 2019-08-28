@@ -1,0 +1,211 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566993618796' stop='1566993681277'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1566993618812' status='broken' stop='1566993634456'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566993618819' status='passed' stop='1566993619609'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993619609' status='passed' stop='1566993619657'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993619657' status='passed' stop='1566993633145'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993633146' status='passed' stop='1566993634094'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993634094' status='broken' stop='1566993634456'>
+                    <name>Then user should see 3hourly forcast for that "1"</name>
+                    <title>Then user should see 3hourly forcast for that "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum temp calculation logic is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect
+                    at whetherPage.strictEqual [as minTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:120:16)
+                    at World.minTempCheck (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:78:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566993634458' status='broken' stop='1566993649913'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566993634458' status='passed' stop='1566993634750'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993634750' status='passed' stop='1566993634783'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993634783' status='passed' stop='1566993648167'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993648167' status='passed' stop='1566993649074'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993649075' status='broken' stop='1566993649913'>
+                    <name>Then user should see 3hourly forcast for that "2"</name>
+                    <title>Then user should see 3hourly forcast for that "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant condition is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant condition is not matching
+                    at whetherPage.strictEqual [as DominantCondition] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:154:16)
+                    at World.DominantCondition (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:80:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566993649914' status='broken' stop='1566993665646'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566993649915' status='passed' stop='1566993650219'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993650219' status='passed' stop='1566993650243'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993650243' status='passed' stop='1566993663630'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993663630' status='passed' stop='1566993664567'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993664567' status='broken' stop='1566993665646'>
+                    <name>Then user should see 3hourly forcast for that "3"</name>
+                    <title>Then user should see 3hourly forcast for that "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at whetherPage.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:184:16)
+                    at World.DominantConditionWind (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:81:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566993665648' status='broken' stop='1566993681276'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566993665648' status='passed' stop='1566993665946'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993665946' status='passed' stop='1566993665976'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993665976' status='passed' stop='1566993679356'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993679356' status='passed' stop='1566993680262'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566993680262' status='broken' stop='1566993681276'>
+                    <name>Then user should see 3hourly forcast for that "4"</name>
+                    <title>Then user should see 3hourly forcast for that "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Most dominant wind Constion is not matching</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching
+                    at whetherPage.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:184:16)
+                    at World.DominantConditionWind (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:81:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

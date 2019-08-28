@@ -1,0 +1,178 @@
+{
+  "uid" : "a7311f897e6ecf4b",
+  "name" : "Weather app test",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully.Weather app test",
+  "historyId" : "d55fb46fef6a113b0a42ee771ef0bc7",
+  "time" : {
+    "start" : 1566993665648,
+    "stop" : 1566993681276,
+    "duration" : 15628
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Most dominant wind Constion is not matching",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching\n                    at whetherPage.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:184:16)\n                    at World.DominantConditionWind (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:81:17)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Most dominant wind Constion is not matching",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching\n                    at whetherPage.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:184:16)\n                    at World.DominantConditionWind (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:81:17)",
+    "steps" : [ {
+      "name" : "When I open the url http://localhost:3000/",
+      "time" : {
+        "start" : 1566993665648,
+        "stop" : 1566993665946,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+      "time" : {
+        "start" : 1566993665946,
+        "stop" : 1566993665976,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter the perth for whetherforecast",
+      "time" : {
+        "start" : 1566993665976,
+        "stop" : 1566993679356,
+        "duration" : 13380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should able to select a 4",
+      "time" : {
+        "start" : 1566993679356,
+        "stop" : 1566993680262,
+        "duration" : 906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user should see 3hourly forcast for that \"4\"",
+      "time" : {
+        "start" : 1566993680262,
+        "stop" : 1566993681276,
+        "duration" : 1014
+      },
+      "status" : "broken",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Most dominant wind Constion is not matching\n                    at whetherPage.strictEqual [as DominantConditionWind] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:184:16)\n                    at World.DominantConditionWind (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:81:17)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testMethod",
+    "value" : "Weather app test"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a0fface4d38bc6d1",
+      "status" : "broken",
+      "statusDetails" : "Most dominant wind Constion is not matching",
+      "time" : {
+        "start" : 1566993649914,
+        "stop" : 1566993665646,
+        "duration" : 15732
+      }
+    }, {
+      "uid" : "59d0bba148ed617c",
+      "status" : "broken",
+      "statusDetails" : "Most dominant condition is not matching",
+      "time" : {
+        "start" : 1566993634458,
+        "stop" : 1566993649913,
+        "duration" : 15455
+      }
+    }, {
+      "uid" : "e69fa5567c40d17d",
+      "status" : "broken",
+      "statusDetails" : "Maximum temp calculation logic is incorrect",
+      "time" : {
+        "start" : 1566993618812,
+        "stop" : 1566993634456,
+        "duration" : 15644
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a7311f897e6ecf4b.json",
+  "parameterValues" : [ "chrome" ]
+}

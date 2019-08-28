@@ -1,0 +1,65 @@
+{
+  "uid" : "f9705e02496e3cdf",
+  "name" : "When I enter the dundee for whetherforecast",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not.When I enter the dundee for whetherforecast",
+  "historyId" : "dd7f2fac7741d5fe4f316984554c7f17",
+  "time" : {
+    "start" : 1566905292285,
+    "stop" : 1566905305724,
+    "duration" : 13439
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter the dundee for whetherforecast"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "82eeb7d324f3a4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904378551,
+        "stop" : 1566904391965,
+        "duration" : 13414
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9705e02496e3cdf.json",
+  "parameterValues" : [ "chrome" ]
+}

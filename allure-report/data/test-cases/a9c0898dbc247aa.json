@@ -1,0 +1,110 @@
+{
+  "uid" : "a9c0898dbc247aa",
+  "name" : "Verify the whetherForecast Application whether use can able to lunch the application or not",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully.Verify the whetherForecast Application whether use can able to lunch the application or not",
+  "historyId" : "cd55fb2d97121f2506060dd25d04c699",
+  "time" : {
+    "start" : 1566904071593,
+    "stop" : 1566904088536,
+    "duration" : 16943
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I open the url http://localhost:3000/",
+      "time" : {
+        "start" : 1566904071598,
+        "stop" : 1566904074877,
+        "duration" : 3279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+      "time" : {
+        "start" : 1566904074877,
+        "stop" : 1566904074909,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter the aberdeen for whetherforecast",
+      "time" : {
+        "start" : 1566904074909,
+        "stop" : 1566904088535,
+        "duration" : 13626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9c0898dbc247aa.json",
+  "parameterValues" : [ "chrome" ]
+}

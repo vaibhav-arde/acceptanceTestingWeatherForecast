@@ -1,0 +1,269 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not",
+    "children" : [ {
+      "name" : "When I enter the aberdeen for whetherforecast",
+      "uid" : "948cf6a97a0f2976",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905278355,
+        "stop" : 1566905291954,
+        "duration" : 13599
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I enter the dundee for whetherforecast",
+      "uid" : "f9705e02496e3cdf",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905292285,
+        "stop" : 1566905305724,
+        "duration" : 13439
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I enter the edinburgh for whetherforecast",
+      "uid" : "a929702e68e197e1",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905306058,
+        "stop" : 1566905319584,
+        "duration" : 13526
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I enter the glasgow for whetherforecast",
+      "uid" : "553b42120c0f4f0e",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905319890,
+        "stop" : 1566905333307,
+        "duration" : 13417
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I enter the perth for whetherforecast",
+      "uid" : "37591d1637f07557",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905333602,
+        "stop" : 1566905346979,
+        "duration" : 13377
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I open the url http://localhost:3000/",
+      "uid" : "cf4db821856e941e",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905346982,
+        "stop" : 1566905347236,
+        "duration" : 254
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+      "uid" : "5e4ad0b73bb7ce39",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905347236,
+        "stop" : 1566905347263,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I enter the stirling for whetherforecast",
+      "uid" : "88d040c26404a991",
+      "parentUid" : "1a82ffe46caea354ea4c40c8fa71b457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905347263,
+        "stop" : 1566905360733,
+        "duration" : 13470
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1a82ffe46caea354ea4c40c8fa71b457"
+  }, {
+    "name" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.",
+    "children" : [ {
+      "name" : "Then I should able to select a 1",
+      "uid" : "e524fa5ab4c5360f",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905374499,
+        "stop" : 1566905375399,
+        "duration" : 900
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user should get Three hourly forecast for that \"1\"",
+      "uid" : "e87017174f61e59f",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905375400,
+        "stop" : 1566905376315,
+        "duration" : 915
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should able to select a 2",
+      "uid" : "2e87464221992e5e",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905390074,
+        "stop" : 1566905390970,
+        "duration" : 896
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user should get Three hourly forecast for that \"2\"",
+      "uid" : "b2be8426e46170b3",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905390970,
+        "stop" : 1566905391958,
+        "duration" : 988
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should able to select a 3",
+      "uid" : "152f9de76a1c806f",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905405768,
+        "stop" : 1566905406666,
+        "duration" : 898
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user should get Three hourly forecast for that \"3\"",
+      "uid" : "f48f16bdf2a199a5",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905406666,
+        "stop" : 1566905407661,
+        "duration" : 995
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I open the url http://localhost:3000/",
+      "uid" : "67d1099534aeb1d7",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905407665,
+        "stop" : 1566905407927,
+        "duration" : 262
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+      "uid" : "63896b523f1634a5",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905407927,
+        "stop" : 1566905407951,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I enter the stirling for whetherforecast",
+      "uid" : "cead8fedc1db149a",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905407951,
+        "stop" : 1566905421482,
+        "duration" : 13531
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I should able to select a 4",
+      "uid" : "37ac636fc6d59da6",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905421482,
+        "stop" : 1566905422375,
+        "duration" : 893
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user should get Three hourly forecast for that \"4\"",
+      "uid" : "fefe69e588cbd86c",
+      "parentUid" : "638555f156d6d8e906c144e532cfaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905422375,
+        "stop" : 1566905423364,
+        "duration" : 989
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "638555f156d6d8e906c144e532cfaca7"
+  }, {
+    "name" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully",
+    "children" : [ {
+      "name" : "Verify the whetherForecast Application whether use can able to lunch the application or not",
+      "uid" : "13ecb1d73ebd8073",
+      "parentUid" : "b3f67fa77d873dc21391dbe893967ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566993541551,
+        "stop" : 1566993555323,
+        "duration" : 13772
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Weather app test",
+      "uid" : "a7311f897e6ecf4b",
+      "parentUid" : "b3f67fa77d873dc21391dbe893967ad9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1566993665648,
+        "stop" : 1566993681276,
+        "duration" : 15628
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b3f67fa77d873dc21391dbe893967ad9"
+  } ]
+}

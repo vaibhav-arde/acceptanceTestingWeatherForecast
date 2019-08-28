@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566998173130' stop='1566998175351'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1566998173141' status='broken' stop='1566998175347'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998173148' status='passed' stop='1566998175195'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998175195' status='broken' stop='1566998175347'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998175347' status='canceled' stop='1566998175348'>
+                    <name>When I enter the Perth for whetherforecast</name>
+                    <title>When I enter the Perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998175348' status='canceled' stop='1566998175349'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:281:16)
+                    at World.TextEqual (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

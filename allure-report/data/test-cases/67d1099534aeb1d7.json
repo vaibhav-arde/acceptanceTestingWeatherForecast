@@ -1,0 +1,81 @@
+{
+  "uid" : "67d1099534aeb1d7",
+  "name" : "When I open the url http://localhost:3000/",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours..When I open the url http://localhost:3000/",
+  "historyId" : "ca7c9eac79806c32b17a498196abb09a",
+  "time" : {
+    "start" : 1566905407665,
+    "stop" : 1566905407927,
+    "duration" : 262
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "testMethod",
+    "value" : "When I open the url http://localhost:3000/"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79a21e403701b8e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905391962,
+        "stop" : 1566905392239,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "f067e3dc7ebfd2ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905376319,
+        "stop" : 1566905376566,
+        "duration" : 247
+      }
+    }, {
+      "uid" : "200c9d952dde9a8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905360739,
+        "stop" : 1566905360996,
+        "duration" : 257
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67d1099534aeb1d7.json",
+  "parameterValues" : [ "chrome" ]
+}

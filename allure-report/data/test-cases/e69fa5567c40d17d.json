@@ -1,0 +1,145 @@
+{
+  "uid" : "e69fa5567c40d17d",
+  "name" : "Weather app test",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully.Weather app test",
+  "historyId" : "d55fb46fef6a113b0a42ee771ef0bc7",
+  "time" : {
+    "start" : 1566993618812,
+    "stop" : 1566993634456,
+    "duration" : 15644
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Maximum temp calculation logic is incorrect",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect\n                    at whetherPage.strictEqual [as minTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:120:16)\n                    at World.minTempCheck (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:78:19)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Maximum temp calculation logic is incorrect",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect\n                    at whetherPage.strictEqual [as minTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:120:16)\n                    at World.minTempCheck (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:78:19)",
+    "steps" : [ {
+      "name" : "When I open the url http://localhost:3000/",
+      "time" : {
+        "start" : 1566993618819,
+        "stop" : 1566993619609,
+        "duration" : 790
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be able to launch the application with header \"Five Day Weather Forecast for\"",
+      "time" : {
+        "start" : 1566993619609,
+        "stop" : 1566993619657,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter the perth for whetherforecast",
+      "time" : {
+        "start" : 1566993619657,
+        "stop" : 1566993633145,
+        "duration" : 13488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should able to select a 1",
+      "time" : {
+        "start" : 1566993633146,
+        "stop" : 1566993634094,
+        "duration" : 948
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user should see 3hourly forcast for that \"1\"",
+      "time" : {
+        "start" : 1566993634094,
+        "stop" : 1566993634456,
+        "duration" : 362
+      },
+      "status" : "broken",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Maximum temp calculation logic is incorrect\n                    at whetherPage.strictEqual [as minTempCheck] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:120:16)\n                    at World.minTempCheck (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:78:19)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "testMethod",
+    "value" : "Weather app test"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e69fa5567c40d17d.json",
+  "parameterValues" : [ "chrome" ]
+}

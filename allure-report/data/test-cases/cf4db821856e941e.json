@@ -1,0 +1,145 @@
+{
+  "uid" : "cf4db821856e941e",
+  "name" : "When I open the url http://localhost:3000/",
+  "fullName" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not.When I open the url http://localhost:3000/",
+  "historyId" : "515c6a8bb1405c345e95aeab27c38ed8",
+  "time" : {
+    "start" : 1566905346982,
+    "stop" : 1566905347236,
+    "duration" : 254
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testClass",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I open the url http://localhost:3000/"
+  }, {
+    "name" : "package",
+    "value" : "As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully: Verify the whetherForecast Application whether use can able to lunch the application or not"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd28f6c5bd70dce5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905333311,
+        "stop" : 1566905333575,
+        "duration" : 264
+      }
+    }, {
+      "uid" : "f4eabbb2af996cd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905319589,
+        "stop" : 1566905319867,
+        "duration" : 278
+      }
+    }, {
+      "uid" : "7d7161f6059e4f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905305730,
+        "stop" : 1566905306032,
+        "duration" : 302
+      }
+    }, {
+      "uid" : "e92f283eb458fd19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905291966,
+        "stop" : 1566905292256,
+        "duration" : 290
+      }
+    }, {
+      "uid" : "8f173bb3996001e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566905274756,
+        "stop" : 1566905278319,
+        "duration" : 3563
+      }
+    }, {
+      "uid" : "7ecbbd7c653842d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904433418,
+        "stop" : 1566904433720,
+        "duration" : 302
+      }
+    }, {
+      "uid" : "35099680066eeafc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904419585,
+        "stop" : 1566904419948,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "f5c6505d8e929469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904405861,
+        "stop" : 1566904406132,
+        "duration" : 271
+      }
+    }, {
+      "uid" : "20f6eaee6760009b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904391971,
+        "stop" : 1566904392280,
+        "duration" : 309
+      }
+    }, {
+      "uid" : "f920f4662dbff997",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904378238,
+        "stop" : 1566904378526,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "e81f4634bfcfa42c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566904363194,
+        "stop" : 1566904364605,
+        "duration" : 1411
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf4db821856e941e.json",
+  "parameterValues" : [ "chrome" ]
+}

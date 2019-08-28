@@ -1,0 +1,844 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566998684268' stop='1566998692394'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1566998684281' status='broken' stop='1566998685146'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998684284' status='passed' stop='1566998685052'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998685052' status='broken' stop='1566998685146'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998685146' status='canceled' stop='1566998685147'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998685150' status='passed' stop='1566998687660'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998685150' status='passed' stop='1566998685460'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998685460' status='passed' stop='1566998687638'>
+                    <name>When I enter the delhi for whetherforecast</name>
+                    <title>When I enter the delhi for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998687638' status='passed' stop='1566998687659'>
+                    <name>Then I should be able to launch the application with header "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1566998687660' status='broken' stop='1566998688022'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998687661' status='passed' stop='1566998687973'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998687973' status='broken' stop='1566998688022'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688022' status='canceled' stop='1566998688022'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688022' status='canceled' stop='1566998688022'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688022' status='canceled' stop='1566998688022'>
+                    <name>Then user should see Three hourly forcast for that "1"</name>
+                    <title>Then user should see Three hourly forcast for that "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998688023' status='broken' stop='1566998688329'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998688023' status='passed' stop='1566998688281'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688281' status='broken' stop='1566998688329'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688329' status='canceled' stop='1566998688329'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688329' status='canceled' stop='1566998688329'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688329' status='canceled' stop='1566998688329'>
+                    <name>Then user should see Three hourly forcast for that "2"</name>
+                    <title>Then user should see Three hourly forcast for that "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998688330' status='broken' stop='1566998688624'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998688330' status='passed' stop='1566998688579'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688579' status='broken' stop='1566998688624'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688624' status='canceled' stop='1566998688624'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688624' status='canceled' stop='1566998688625'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688625' status='canceled' stop='1566998688625'>
+                    <name>Then user should see Three hourly forcast for that "3"</name>
+                    <title>Then user should see Three hourly forcast for that "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998688625' status='broken' stop='1566998688946'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998688626' status='passed' stop='1566998688899'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688899' status='broken' stop='1566998688946'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688946' status='canceled' stop='1566998688946'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688946' status='canceled' stop='1566998688947'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998688947' status='canceled' stop='1566998688947'>
+                    <name>Then user should see Three hourly forcast for that "4"</name>
+                    <title>Then user should see Three hourly forcast for that "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998688947' status='broken' stop='1566998689262'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998688948' status='passed' stop='1566998689214'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689214' status='broken' stop='1566998689262'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689262' status='canceled' stop='1566998689262'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689262' status='canceled' stop='1566998689262'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689262' status='canceled' stop='1566998689262'>
+                    <name>Then user should see Three hourly forcast for that "5"</name>
+                    <title>Then user should see Three hourly forcast for that "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998689263' status='broken' stop='1566998689565'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998689263' status='passed' stop='1566998689518'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689519' status='broken' stop='1566998689565'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689565' status='canceled' stop='1566998689565'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689566' status='canceled' stop='1566998689566'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689566' status='canceled' stop='1566998689566'>
+                    <name>Then Status of hourly forecast should be hidden for "1"</name>
+                    <title>Then Status of hourly forecast should be hidden for "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998689566' status='broken' stop='1566998689881'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998689567' status='passed' stop='1566998689832'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689833' status='broken' stop='1566998689881'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689881' status='canceled' stop='1566998689881'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689881' status='canceled' stop='1566998689881'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998689881' status='canceled' stop='1566998689881'>
+                    <name>Then Status of hourly forecast should be hidden for "2"</name>
+                    <title>Then Status of hourly forecast should be hidden for "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998689882' status='broken' stop='1566998690201'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998689882' status='passed' stop='1566998690152'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690153' status='broken' stop='1566998690201'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690202' status='canceled' stop='1566998690202'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690202' status='canceled' stop='1566998690202'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690202' status='canceled' stop='1566998690202'>
+                    <name>Then Status of hourly forecast should be hidden for "3"</name>
+                    <title>Then Status of hourly forecast should be hidden for "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998690203' status='broken' stop='1566998690506'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998690203' status='passed' stop='1566998690463'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690463' status='broken' stop='1566998690506'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690506' status='canceled' stop='1566998690507'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690507' status='canceled' stop='1566998690507'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690507' status='canceled' stop='1566998690507'>
+                    <name>Then Status of hourly forecast should be hidden for "4"</name>
+                    <title>Then Status of hourly forecast should be hidden for "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998690508' status='broken' stop='1566998690831'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998690508' status='passed' stop='1566998690770'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690770' status='broken' stop='1566998690831'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690832' status='canceled' stop='1566998690832'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690832' status='canceled' stop='1566998690832'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998690832' status='canceled' stop='1566998690832'>
+                    <name>Then Status of hourly forecast should be hidden for "5"</name>
+                    <title>Then Status of hourly forecast should be hidden for "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998690833' status='broken' stop='1566998691137'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998690833' status='passed' stop='1566998691090'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691090' status='broken' stop='1566998691137'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691137' status='canceled' stop='1566998691137'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691137' status='canceled' stop='1566998691137'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691137' status='canceled' stop='1566998691137'>
+                    <name>Then user should see 3hourly forcast for that "1"</name>
+                    <title>Then user should see 3hourly forcast for that "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998691138' status='broken' stop='1566998691443'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998691138' status='passed' stop='1566998691392'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691392' status='broken' stop='1566998691443'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691443' status='canceled' stop='1566998691443'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691443' status='canceled' stop='1566998691443'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691443' status='canceled' stop='1566998691443'>
+                    <name>Then user should see 3hourly forcast for that "2"</name>
+                    <title>Then user should see 3hourly forcast for that "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998691444' status='broken' stop='1566998691755'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998691445' status='passed' stop='1566998691707'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691707' status='broken' stop='1566998691755'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691756' status='canceled' stop='1566998691756'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691756' status='canceled' stop='1566998691756'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998691756' status='canceled' stop='1566998691756'>
+                    <name>Then user should see 3hourly forcast for that "3"</name>
+                    <title>Then user should see 3hourly forcast for that "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998691757' status='broken' stop='1566998692060'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998691757' status='passed' stop='1566998692017'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692017' status='broken' stop='1566998692060'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692061' status='canceled' stop='1566998692061'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692061' status='canceled' stop='1566998692061'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692061' status='canceled' stop='1566998692061'>
+                    <name>Then user should see 3hourly forcast for that "4"</name>
+                    <title>Then user should see 3hourly forcast for that "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566998692062' status='broken' stop='1566998692392'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1566998692063' status='passed' stop='1566998692340'>
+                    <name>When I open the url http://localhost:3000/</name>
+                    <title>When I open the url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692340' status='broken' stop='1566998692392'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692392' status='canceled' stop='1566998692393'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692393' status='canceled' stop='1566998692393'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1566998692393' status='canceled' stop='1566998692393'>
+                    <name>Then user should see 3hourly forcast for that "5"</name>
+                    <title>Then user should see 3hourly forcast for that "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>You have landed in wrong page</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: You have landed in wrong page
+                    at whetherPage.strictEqual [as TextEqual2] (/Users/prasadrsangpal/assign/prasad/bdd/pageObjects/whetherPage.js:287:16)
+                    at World.TextEqual2 (/Users/prasadrsangpal/assign/prasad/bdd/features/step_definitions/wheather.js:85:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
