@@ -92,17 +92,25 @@ Then(/^For the (.*) aggregated rainfall should be validated$/, function(day){
 
 Then(/^For the (.*) dominant wind condition should be validated$/, function(day){
     let summarisedWindCondition = weatherPage.windCondition(day);
-    console.log('summarisedWindCondition', summarisedWindCondition);
+    // console.log('summarisedWindCondition', summarisedWindCondition);
     let calculatedWindCondition = weatherPage.calWindCondition(day);
-    console.log('calculatedWindCondition', calculatedWindCondition);
+    // console.log('calculatedWindCondition', calculatedWindCondition);
     expect(calculatedWindCondition).to.equal(summarisedWindCondition);
 });
 
 Then(/^For the (.*) dominant wind speed should be validated$/, function(day){
     let summarisedWindSpeed = weatherPage.windSpeed(day);
-    console.log('summarisedWindSpeed', summarisedWindSpeed);
+    // console.log('summarisedWindSpeed', summarisedWindSpeed);
     let calculatedWindSpeed = weatherPage.calWindSpeed(day);
-    console.log('calculatedWindSpeed', calculatedWindSpeed);
+    // console.log('calculatedWindSpeed', calculatedWindSpeed);
     expect(calculatedWindSpeed).to.equal(summarisedWindSpeed);
+});
+
+Then(/^For the (.*) dominant wind direction should be validated$/, function(day){
+    let summarisedWindDir = weatherPage.windDir(day);
+    // console.log('summarisedWindDir', summarisedWindDir);
+    let calculatedWindDir = weatherPage.calWindDir(day);
+    // console.log('calculatedWindDir', calculatedWindDir);
+    expect(calculatedWindDir).to.equal(summarisedWindDir);
 });
 

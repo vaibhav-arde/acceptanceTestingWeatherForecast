@@ -206,6 +206,28 @@ class weatherPage extends Page {
         console.log('arr', arr);
         return Math.max(...arr);;
     }
+
+    windDir(day){
+        let style = $(`span.direction[data-test^="direction-${day}"]>svg`).getAttribute("style");
+        console.log('style',style);
+        let dir = style.substring(style.length-8,style.length-5);
+        console.log('dir',dir);
+        return dir;
+    }
+
+    calWindDir(day){
+        let arr = [];
+        let recordsLength = $$(`span.direction[data-test^="direction-${day}-"]>svg`).length;
+        console.log('recordsLength', recordsLength);
+        for(let i=1; i<=recordsLength; i++){
+            let style = $(`span.direction[data-test="direction-${day}-${i}"]>svg`).getAttribute("style");
+            let temp = style.substring(style.length-8,style.length-5);
+            console.log('temp', temp);
+            arr.push(temp);
+        }
+        console.log('arr', arr);
+        return Math.max(...arr);;
+    }
 }
 
 export default new weatherPage();

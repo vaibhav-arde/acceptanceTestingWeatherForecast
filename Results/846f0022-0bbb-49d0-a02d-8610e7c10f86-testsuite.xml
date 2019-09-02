@@ -1,0 +1,227 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567405791453' stop='1567405799881'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567405791459' status='failed' stop='1567405793403'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567405791460' status='passed' stop='1567405791461'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405791936' status='passed' stop='1567405793215'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405793215' status='passed' stop='1567405793282'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405793282' status='failed' stop='1567405793403'>
+                    <name>Then For the 1 dominant wind direction should be validated</name>
+                    <title>Then For the 1 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 221 to equal '207'</message>
+                <stack-trace>AssertionError: expected 221 to equal '207'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567405793405' status='failed' stop='1567405795059'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567405793405' status='passed' stop='1567405793405'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405793569' status='passed' stop='1567405794806'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405794806' status='passed' stop='1567405794881'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405794881' status='failed' stop='1567405795059'>
+                    <name>Then For the 2 dominant wind direction should be validated</name>
+                    <title>Then For the 2 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 189 to equal '132'</message>
+                <stack-trace>AssertionError: expected 189 to equal '132'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567405795060' status='failed' stop='1567405796679'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567405795060' status='passed' stop='1567405795060'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405795203' status='passed' stop='1567405796447'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405796447' status='passed' stop='1567405796514'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405796514' status='failed' stop='1567405796679'>
+                    <name>Then For the 3 dominant wind direction should be validated</name>
+                    <title>Then For the 3 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 229 to equal '171'</message>
+                <stack-trace>AssertionError: expected 229 to equal '171'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567405796680' status='failed' stop='1567405798276'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567405796680' status='passed' stop='1567405796680'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405796819' status='passed' stop='1567405798019'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405798019' status='passed' stop='1567405798081'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405798081' status='failed' stop='1567405798276'>
+                    <name>Then For the 4 dominant wind direction should be validated</name>
+                    <title>Then For the 4 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 237 to equal '237'</message>
+                <stack-trace>AssertionError: expected 237 to equal '237'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567405798277' status='failed' stop='1567405799880'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567405798277' status='passed' stop='1567405798278'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405798417' status='passed' stop='1567405799642'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405799642' status='passed' stop='1567405799714'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567405799715' status='failed' stop='1567405799880'>
+                    <name>Then For the 5 dominant wind direction should be validated</name>
+                    <title>Then For the 5 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 294 to equal '194'</message>
+                <stack-trace>AssertionError: expected 294 to equal '194'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

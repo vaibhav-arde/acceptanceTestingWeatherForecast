@@ -1,0 +1,1950 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567406147481' stop='1567406253021'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567406147487' status='passed' stop='1567406149971'>
+            <name>Verify 5 days of weather forecast displayed for the valid city name</name>
+            <title>Verify 5 days of weather forecast displayed for the valid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406147488' status='passed' stop='1567406147490'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406148561' status='passed' stop='1567406148606'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406148606' status='passed' stop='1567406149953'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406149953' status='passed' stop='1567406149970'>
+                    <name>Then As per cityName 5 wheather forecast to be displayed</name>
+                    <title>Then As per cityName 5 wheather forecast to be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406149971' status='passed' stop='1567406151403'>
+            <name>Verify 5 days of weather forecast displayed for the valid city name</name>
+            <title>Verify 5 days of weather forecast displayed for the valid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406149971' status='passed' stop='1567406149972'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406150122' status='passed' stop='1567406150142'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406150142' status='passed' stop='1567406151393'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406151393' status='passed' stop='1567406151403'>
+                    <name>Then As per cityName 5 wheather forecast to be displayed</name>
+                    <title>Then As per cityName 5 wheather forecast to be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406151403' status='passed' stop='1567406152843'>
+            <name>Verify 5 days of weather forecast displayed for the valid city name</name>
+            <title>Verify 5 days of weather forecast displayed for the valid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406151403' status='passed' stop='1567406151404'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406151544' status='passed' stop='1567406151564'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406151564' status='passed' stop='1567406152834'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406152834' status='passed' stop='1567406152843'>
+                    <name>Then As per cityName 5 wheather forecast to be displayed</name>
+                    <title>Then As per cityName 5 wheather forecast to be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406152844' status='passed' stop='1567406154219'>
+            <name>Verify 5 days of weather forecast displayed for the valid city name</name>
+            <title>Verify 5 days of weather forecast displayed for the valid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406152844' status='passed' stop='1567406152844'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406152984' status='passed' stop='1567406153004'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406153004' status='passed' stop='1567406154208'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406154208' status='passed' stop='1567406154218'>
+                    <name>Then As per cityName 5 wheather forecast to be displayed</name>
+                    <title>Then As per cityName 5 wheather forecast to be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406154219' status='passed' stop='1567406155583'>
+            <name>Verify 5 days of weather forecast displayed for the valid city name</name>
+            <title>Verify 5 days of weather forecast displayed for the valid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406154219' status='passed' stop='1567406154219'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406154368' status='passed' stop='1567406154390'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406154390' status='passed' stop='1567406155572'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406155572' status='passed' stop='1567406155583'>
+                    <name>Then As per cityName 5 wheather forecast to be displayed</name>
+                    <title>Then As per cityName 5 wheather forecast to be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406155583' status='passed' stop='1567406157027'>
+            <name>Verify 5 days of weather forecast displayed for the valid city name</name>
+            <title>Verify 5 days of weather forecast displayed for the valid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406155584' status='passed' stop='1567406155584'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406155719' status='passed' stop='1567406155740'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406155740' status='passed' stop='1567406157016'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406157016' status='passed' stop='1567406157027'>
+                    <name>Then As per cityName 5 wheather forecast to be displayed</name>
+                    <title>Then As per cityName 5 wheather forecast to be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406157027' status='passed' stop='1567406158388'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406157028' status='passed' stop='1567406157028'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406157209' status='passed' stop='1567406158368'>
+                    <name>When I enter the London for whetherforecast</name>
+                    <title>When I enter the London for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406158368' status='passed' stop='1567406158387'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406158388' status='passed' stop='1567406159814'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406158388' status='passed' stop='1567406158389'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406158530' status='passed' stop='1567406159790'>
+                    <name>When I enter the 123456789 for whetherforecast</name>
+                    <title>When I enter the 123456789 for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406159790' status='passed' stop='1567406159812'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406159814' status='passed' stop='1567406161212'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406159814' status='passed' stop='1567406159814'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406159974' status='passed' stop='1567406161191'>
+                    <name>When I enter the !@£$%^&amp;*( for whetherforecast</name>
+                    <title>When I enter the !@£$%^&amp;*( for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406161191' status='passed' stop='1567406161212'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406161212' status='passed' stop='1567406168708'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406161212' status='passed' stop='1567406161213'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406161355' status='passed' stop='1567406162619'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406162619' status='passed' stop='1567406167760'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406167760' status='passed' stop='1567406168708'>
+                    <name>Then user should see Three hourly forcast for that 1</name>
+                    <title>Then user should see Three hourly forcast for that 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406168708' status='passed' stop='1567406176420'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406168709' status='passed' stop='1567406168709'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406168844' status='passed' stop='1567406170116'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406170116' status='passed' stop='1567406175363'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406175363' status='passed' stop='1567406176419'>
+                    <name>Then user should see Three hourly forcast for that 2</name>
+                    <title>Then user should see Three hourly forcast for that 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406176420' status='passed' stop='1567406183993'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406176420' status='passed' stop='1567406176420'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406176553' status='passed' stop='1567406177783'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406177783' status='passed' stop='1567406182941'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406182941' status='passed' stop='1567406183992'>
+                    <name>Then user should see Three hourly forcast for that 3</name>
+                    <title>Then user should see Three hourly forcast for that 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406183993' status='passed' stop='1567406189099'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406183993' status='passed' stop='1567406183993'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406184119' status='passed' stop='1567406185334'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406185334' status='passed' stop='1567406188041'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406188041' status='passed' stop='1567406189099'>
+                    <name>Then user should see Three hourly forcast for that 4</name>
+                    <title>Then user should see Three hourly forcast for that 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406189099' status='passed' stop='1567406191598'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406189099' status='passed' stop='1567406189100'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406189229' status='passed' stop='1567406190464'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406190464' status='passed' stop='1567406190528'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406190528' status='passed' stop='1567406191598'>
+                    <name>Then user should see Three hourly forcast for that 5</name>
+                    <title>Then user should see Three hourly forcast for that 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406191599' status='passed' stop='1567406194009'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406191599' status='passed' stop='1567406191599'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406191727' status='passed' stop='1567406192975'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406192975' status='passed' stop='1567406193031'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406193032' status='passed' stop='1567406194009'>
+                    <name>Then Status of hourly forecast should be hidden for 1</name>
+                    <title>Then Status of hourly forecast should be hidden for 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406194009' status='passed' stop='1567406196973'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406194009' status='passed' stop='1567406194009'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406194636' status='passed' stop='1567406195924'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406195924' status='passed' stop='1567406195994'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406195995' status='passed' stop='1567406196972'>
+                    <name>Then Status of hourly forecast should be hidden for 2</name>
+                    <title>Then Status of hourly forecast should be hidden for 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406196973' status='passed' stop='1567406199401'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406196973' status='passed' stop='1567406196973'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406197108' status='passed' stop='1567406198368'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406198368' status='passed' stop='1567406198429'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406198429' status='passed' stop='1567406199401'>
+                    <name>Then Status of hourly forecast should be hidden for 3</name>
+                    <title>Then Status of hourly forecast should be hidden for 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406199401' status='passed' stop='1567406201840'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406199402' status='passed' stop='1567406199402'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406199536' status='passed' stop='1567406200799'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406200799' status='passed' stop='1567406200861'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406200861' status='passed' stop='1567406201839'>
+                    <name>Then Status of hourly forecast should be hidden for 4</name>
+                    <title>Then Status of hourly forecast should be hidden for 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406201840' status='passed' stop='1567406204489'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406201840' status='passed' stop='1567406201840'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406201965' status='passed' stop='1567406203447'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406203447' status='passed' stop='1567406203517'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406203517' status='passed' stop='1567406204489'>
+                    <name>Then Status of hourly forecast should be hidden for 5</name>
+                    <title>Then Status of hourly forecast should be hidden for 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406204489' status='passed' stop='1567406206006'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406204489' status='passed' stop='1567406204490'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406204624' status='passed' stop='1567406205798'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406205798' status='passed' stop='1567406205863'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406205863' status='passed' stop='1567406206006'>
+                    <name>Then For the 1 maximum temperature should be summarised</name>
+                    <title>Then For the 1 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406206006' status='passed' stop='1567406207604'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406206007' status='passed' stop='1567406206007'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406206137' status='passed' stop='1567406207320'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406207320' status='passed' stop='1567406207395'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406207395' status='passed' stop='1567406207603'>
+                    <name>Then For the 2 maximum temperature should be summarised</name>
+                    <title>Then For the 2 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406207604' status='passed' stop='1567406209209'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406207604' status='passed' stop='1567406207604'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406207742' status='passed' stop='1567406208943'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406208943' status='passed' stop='1567406209013'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406209013' status='passed' stop='1567406209209'>
+                    <name>Then For the 3 maximum temperature should be summarised</name>
+                    <title>Then For the 3 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406209210' status='passed' stop='1567406210798'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406209210' status='passed' stop='1567406209210'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406209342' status='passed' stop='1567406210534'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406210534' status='passed' stop='1567406210605'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406210605' status='passed' stop='1567406210797'>
+                    <name>Then For the 4 maximum temperature should be summarised</name>
+                    <title>Then For the 4 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406210798' status='passed' stop='1567406212412'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406210798' status='passed' stop='1567406210798'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406210935' status='passed' stop='1567406212149'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406212149' status='passed' stop='1567406212211'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406212211' status='passed' stop='1567406212412'>
+                    <name>Then For the 5 maximum temperature should be summarised</name>
+                    <title>Then For the 5 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406212412' status='passed' stop='1567406214102'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406212413' status='passed' stop='1567406212413'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406212545' status='passed' stop='1567406213783'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406213783' status='passed' stop='1567406213975'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406213975' status='passed' stop='1567406214101'>
+                    <name>Then For the 1 minimum temperature should be summarised</name>
+                    <title>Then For the 1 minimum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406214102' status='passed' stop='1567406215754'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406214102' status='passed' stop='1567406214102'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406214247' status='passed' stop='1567406215487'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406215488' status='passed' stop='1567406215545'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406215545' status='passed' stop='1567406215754'>
+                    <name>Then For the 2 minimum temperature should be summarised</name>
+                    <title>Then For the 2 minimum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406215755' status='passed' stop='1567406217361'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406215755' status='passed' stop='1567406215755'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406215890' status='passed' stop='1567406217113'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406217113' status='passed' stop='1567406217168'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406217168' status='passed' stop='1567406217360'>
+                    <name>Then For the 3 minimum temperature should be summarised</name>
+                    <title>Then For the 3 minimum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406217361' status='passed' stop='1567406219012'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406217361' status='passed' stop='1567406217361'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406217500' status='passed' stop='1567406218762'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406218762' status='passed' stop='1567406218828'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406218828' status='passed' stop='1567406219011'>
+                    <name>Then For the 4 minimum temperature should be summarised</name>
+                    <title>Then For the 4 minimum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406219012' status='passed' stop='1567406220618'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406219012' status='passed' stop='1567406219012'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406219146' status='passed' stop='1567406220370'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406220370' status='passed' stop='1567406220429'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406220429' status='passed' stop='1567406220617'>
+                    <name>Then For the 5 minimum temperature should be summarised</name>
+                    <title>Then For the 5 minimum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406220618' status='passed' stop='1567406222158'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406220618' status='passed' stop='1567406220618'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406220748' status='passed' stop='1567406221980'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406221980' status='passed' stop='1567406222044'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406222044' status='passed' stop='1567406222158'>
+                    <name>Then For the 1 aggregated rainfall should be validated</name>
+                    <title>Then For the 1 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406222158' status='passed' stop='1567406223761'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406222158' status='passed' stop='1567406222158'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406222290' status='passed' stop='1567406223502'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406223502' status='passed' stop='1567406223561'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406223561' status='passed' stop='1567406223760'>
+                    <name>Then For the 2 aggregated rainfall should be validated</name>
+                    <title>Then For the 2 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406223761' status='passed' stop='1567406225420'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406223761' status='passed' stop='1567406223761'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406223895' status='passed' stop='1567406225136'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406225137' status='passed' stop='1567406225211'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406225211' status='passed' stop='1567406225420'>
+                    <name>Then For the 3 aggregated rainfall should be validated</name>
+                    <title>Then For the 3 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406225420' status='passed' stop='1567406227054'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406225420' status='passed' stop='1567406225421'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406225555' status='passed' stop='1567406226807'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406226807' status='passed' stop='1567406226870'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406226871' status='passed' stop='1567406227054'>
+                    <name>Then For the 4 aggregated rainfall should be validated</name>
+                    <title>Then For the 4 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406227055' status='passed' stop='1567406228750'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406227055' status='passed' stop='1567406227055'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406227191' status='passed' stop='1567406228464'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406228464' status='passed' stop='1567406228529'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406228529' status='passed' stop='1567406228750'>
+                    <name>Then For the 5 aggregated rainfall should be validated</name>
+                    <title>Then For the 5 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406228750' status='failed' stop='1567406230353'>
+            <name>Daily forecast should summarise the dominant wind condition</name>
+            <title>Daily forecast should summarise the dominant wind condition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406228750' status='passed' stop='1567406228751'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406228899' status='passed' stop='1567406230184'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406230184' status='passed' stop='1567406230251'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406230251' status='failed' stop='1567406230353'>
+                    <name>Then For the 1 dominant wind condition should be validated</name>
+                    <title>Then For the 1 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'Clouds' to equal 'Rain'</message>
+                <stack-trace>AssertionError: expected 'Clouds' to equal 'Rain'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:98:40)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406230354' status='failed' stop='1567406231978'>
+            <name>Daily forecast should summarise the dominant wind condition</name>
+            <title>Daily forecast should summarise the dominant wind condition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406230354' status='passed' stop='1567406230354'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406230502' status='passed' stop='1567406231746'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406231746' status='passed' stop='1567406231812'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406231812' status='failed' stop='1567406231978'>
+                    <name>Then For the 2 dominant wind condition should be validated</name>
+                    <title>Then For the 2 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'Rain' to equal 'Clouds'</message>
+                <stack-trace>AssertionError: expected 'Rain' to equal 'Clouds'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:98:40)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406231979' status='passed' stop='1567406233578'>
+            <name>Daily forecast should summarise the dominant wind condition</name>
+            <title>Daily forecast should summarise the dominant wind condition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406231979' status='passed' stop='1567406231979'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406232113' status='passed' stop='1567406233326'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406233326' status='passed' stop='1567406233403'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406233403' status='passed' stop='1567406233578'>
+                    <name>Then For the 3 dominant wind condition should be validated</name>
+                    <title>Then For the 3 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406233579' status='passed' stop='1567406235180'>
+            <name>Daily forecast should summarise the dominant wind condition</name>
+            <title>Daily forecast should summarise the dominant wind condition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406233579' status='passed' stop='1567406233579'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406233713' status='passed' stop='1567406234948'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406234948' status='passed' stop='1567406235012'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406235012' status='passed' stop='1567406235179'>
+                    <name>Then For the 4 dominant wind condition should be validated</name>
+                    <title>Then For the 4 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406235180' status='passed' stop='1567406236801'>
+            <name>Daily forecast should summarise the dominant wind condition</name>
+            <title>Daily forecast should summarise the dominant wind condition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406235180' status='passed' stop='1567406235180'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406235328' status='passed' stop='1567406236555'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406236555' status='passed' stop='1567406236635'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406236635' status='passed' stop='1567406236800'>
+                    <name>Then For the 5 dominant wind condition should be validated</name>
+                    <title>Then For the 5 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406236801' status='passed' stop='1567406238358'>
+            <name>Daily forecast should summarise the dominant wind speed</name>
+            <title>Daily forecast should summarise the dominant wind speed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406236801' status='passed' stop='1567406236801'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406236938' status='passed' stop='1567406238168'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406238168' status='passed' stop='1567406238229'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406238229' status='passed' stop='1567406238357'>
+                    <name>Then For the 1 dominant wind speed should be validated</name>
+                    <title>Then For the 1 dominant wind speed should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406238358' status='failed' stop='1567406240044'>
+            <name>Daily forecast should summarise the dominant wind speed</name>
+            <title>Daily forecast should summarise the dominant wind speed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406238358' status='passed' stop='1567406238358'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406238495' status='passed' stop='1567406239722'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406239723' status='passed' stop='1567406239804'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406239804' status='failed' stop='1567406240044'>
+                    <name>Then For the 2 dominant wind speed should be validated</name>
+                    <title>Then For the 2 dominant wind speed should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 5 to equal 1</message>
+                <stack-trace>AssertionError: expected 5 to equal 1
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:106:36)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406240045' status='failed' stop='1567406241714'>
+            <name>Daily forecast should summarise the dominant wind speed</name>
+            <title>Daily forecast should summarise the dominant wind speed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406240045' status='passed' stop='1567406240045'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406240177' status='passed' stop='1567406241408'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406241408' status='passed' stop='1567406241486'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406241486' status='failed' stop='1567406241714'>
+                    <name>Then For the 3 dominant wind speed should be validated</name>
+                    <title>Then For the 3 dominant wind speed should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 6 to equal 4</message>
+                <stack-trace>AssertionError: expected 6 to equal 4
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:106:36)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406241714' status='failed' stop='1567406243412'>
+            <name>Daily forecast should summarise the dominant wind speed</name>
+            <title>Daily forecast should summarise the dominant wind speed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406241714' status='passed' stop='1567406241714'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406241846' status='passed' stop='1567406243095'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406243095' status='passed' stop='1567406243163'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406243163' status='failed' stop='1567406243412'>
+                    <name>Then For the 4 dominant wind speed should be validated</name>
+                    <title>Then For the 4 dominant wind speed should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 10 to equal 6</message>
+                <stack-trace>AssertionError: expected 10 to equal 6
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:106:36)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406243412' status='passed' stop='1567406245075'>
+            <name>Daily forecast should summarise the dominant wind speed</name>
+            <title>Daily forecast should summarise the dominant wind speed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406243413' status='passed' stop='1567406243413'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406243548' status='passed' stop='1567406244809'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406244809' status='passed' stop='1567406244868'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406244868' status='passed' stop='1567406245075'>
+                    <name>Then For the 5 dominant wind speed should be validated</name>
+                    <title>Then For the 5 dominant wind speed should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567406245075' status='failed' stop='1567406246622'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406245075' status='passed' stop='1567406245076'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406245207' status='passed' stop='1567406246442'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406246442' status='passed' stop='1567406246518'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406246518' status='failed' stop='1567406246622'>
+                    <name>Then For the 1 dominant wind direction should be validated</name>
+                    <title>Then For the 1 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 221 to equal '207'</message>
+                <stack-trace>AssertionError: expected 221 to equal '207'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406246623' status='failed' stop='1567406248199'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406246623' status='passed' stop='1567406246623'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406246758' status='passed' stop='1567406247984'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406247984' status='passed' stop='1567406248045'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406248045' status='failed' stop='1567406248199'>
+                    <name>Then For the 2 dominant wind direction should be validated</name>
+                    <title>Then For the 2 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 189 to equal '132'</message>
+                <stack-trace>AssertionError: expected 189 to equal '132'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406248200' status='failed' stop='1567406249807'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406248200' status='passed' stop='1567406248200'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406248330' status='passed' stop='1567406249576'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406249576' status='passed' stop='1567406249647'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406249647' status='failed' stop='1567406249807'>
+                    <name>Then For the 3 dominant wind direction should be validated</name>
+                    <title>Then For the 3 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 229 to equal '171'</message>
+                <stack-trace>AssertionError: expected 229 to equal '171'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406249808' status='failed' stop='1567406251411'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406249808' status='passed' stop='1567406249808'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406249941' status='passed' stop='1567406251172'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406251172' status='passed' stop='1567406251250'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406251251' status='failed' stop='1567406251411'>
+                    <name>Then For the 4 dominant wind direction should be validated</name>
+                    <title>Then For the 4 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 237 to equal '237'</message>
+                <stack-trace>AssertionError: expected 237 to equal '237'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567406251412' status='failed' stop='1567406253020'>
+            <name>Daily forecast should summarise the dominant wind direction</name>
+            <title>Daily forecast should summarise the dominant wind direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567406251412' status='passed' stop='1567406251412'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406251542' status='passed' stop='1567406252775'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406252775' status='passed' stop='1567406252863'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567406252863' status='failed' stop='1567406253020'>
+                    <name>Then For the 5 dominant wind direction should be validated</name>
+                    <title>Then For the 5 dominant wind direction should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 294 to equal '194'</message>
+                <stack-trace>AssertionError: expected 294 to equal '194'
+                    at World.equal (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:114:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

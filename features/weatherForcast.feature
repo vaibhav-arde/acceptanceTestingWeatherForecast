@@ -30,7 +30,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
         | 123456789 |
         | !@£$%^&*( |
 
-  @complete @test2
+  @complete @test2 @threehourdata
   Scenario Outline: Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.
     When I enter the stirling for whetherforecast
     Then I should able to select a <day>
@@ -44,7 +44,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 4   |
       | 5   |
 
-  @complete @test3
+  @complete @test3 @collapse
   Scenario Outline: Verify that user is able to collapse the forecast hour data.
     When I enter the edinburgh for whetherforecast
     Then I should able to select a <day>
@@ -58,7 +58,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 4   |
       | 5   |
   
-  @complete @test4
+  @complete @test4 @maximumtemperatue
   Scenario Outline: Daily forecast should summarise the 3 hour data for maximum temperatue
     When I enter the perth for whetherforecast
     Then I should able to select a <day>
@@ -72,7 +72,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 4   |
       | 5   |
 
-  @complete @test5
+  @complete @test5 @minimumtemperatue
   Scenario Outline: Daily forecast should summarise the 3 hour data for minimum temperatue
     When I enter the glasgow for whetherforecast
     Then I should able to select a <day>
@@ -86,7 +86,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 4   |
       | 5   |
 
-  @complete @test6
+  @complete @test6 @aggregatedrainfall
   Scenario Outline: Daily forecast should summarise the aggregated rainfall
     When I enter the dundee for whetherforecast
     Then I should able to select a <day>
@@ -100,7 +100,7 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 4   |
       | 5   |
 
-  @complete @test7
+  @complete @test7 @windcondition
   Scenario Outline: Daily forecast should summarise the dominant wind condition
     When I enter the glasgow for whetherforecast
     Then I should able to select a <day>
@@ -114,11 +114,25 @@ Feature: As a whetherForecast service provider, I should be able to fetch the wh
       | 4   |
       | 5   |
 
-@complete @test8
+  @complete @test8 @windspeed
   Scenario Outline: Daily forecast should summarise the dominant wind speed
     When I enter the glasgow for whetherforecast
     Then I should able to select a <day>
     Then For the <day> dominant wind speed should be validated
+
+    Examples:
+      | day |
+      | 1   |
+      | 2   |
+      | 3   |
+      | 4   |
+      | 5   |
+
+  @complete @test9 @winddirection
+  Scenario Outline: Daily forecast should summarise the dominant wind direction
+    When I enter the glasgow for whetherforecast
+    Then I should able to select a <day>
+    Then For the <day> dominant wind direction should be validated
 
     Examples:
       | day |
