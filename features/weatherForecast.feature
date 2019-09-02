@@ -1,4 +1,4 @@
-@weatherForcast
+@weatherForecast
 Feature: As a weatherForecast service provider, I should be able to fetch the weather details from the application successfully
 
   Background: Launch Weather Forecast web application
