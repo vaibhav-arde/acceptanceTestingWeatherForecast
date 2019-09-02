@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567391059763' stop='1567391072989'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567391059769' status='passed' stop='1567391062792'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391059770' status='passed' stop='1567391059772'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391060348' status='passed' stop='1567391061739'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391061739' status='passed' stop='1567391061811'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391061811' status='passed' stop='1567391062791'>
+                    <name>Then Status of hourly forecast should be hidden for 1</name>
+                    <title>Then Status of hourly forecast should be hidden for 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391062792' status='passed' stop='1567391065392'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391062793' status='passed' stop='1567391062793'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391062956' status='passed' stop='1567391064331'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391064331' status='passed' stop='1567391064414'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391064414' status='passed' stop='1567391065392'>
+                    <name>Then Status of hourly forecast should be hidden for 2</name>
+                    <title>Then Status of hourly forecast should be hidden for 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391065393' status='passed' stop='1567391067944'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391065393' status='passed' stop='1567391065393'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391065549' status='passed' stop='1567391066896'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391066896' status='passed' stop='1567391066964'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391066964' status='passed' stop='1567391067944'>
+                    <name>Then Status of hourly forecast should be hidden for 3</name>
+                    <title>Then Status of hourly forecast should be hidden for 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391067945' status='passed' stop='1567391070480'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391067945' status='passed' stop='1567391067946'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391068095' status='passed' stop='1567391069417'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391069417' status='passed' stop='1567391069493'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391069493' status='passed' stop='1567391070479'>
+                    <name>Then Status of hourly forecast should be hidden for 4</name>
+                    <title>Then Status of hourly forecast should be hidden for 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391070480' status='passed' stop='1567391072989'>
+            <name>Verify that user is able to collapse the forecast hour data.</name>
+            <title>Verify that user is able to collapse the forecast hour data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391070480' status='passed' stop='1567391070480'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391070626' status='passed' stop='1567391071953'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391071953' status='passed' stop='1567391072015'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391072015' status='passed' stop='1567391072988'>
+                    <name>Then Status of hourly forecast should be hidden for 5</name>
+                    <title>Then Status of hourly forecast should be hidden for 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

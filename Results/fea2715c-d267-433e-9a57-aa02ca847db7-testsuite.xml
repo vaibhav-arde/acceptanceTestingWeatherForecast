@@ -1,0 +1,1307 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567342871134' stop='1567342875498'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567342871140' status='broken' stop='1567342872036'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342871141' status='passed' stop='1567342871142'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342871143' status='broken' stop='1567342872036'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872036' status='canceled' stop='1567342872037'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872037' status='canceled' stop='1567342872037'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872037' status='canceled' stop='1567342872037'>
+                    <name>When I enter the aberdeen for whetherforecast</name>
+                    <title>When I enter the aberdeen for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342872039' status='broken' stop='1567342872207'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342872039' status='passed' stop='1567342872039'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872039' status='broken' stop='1567342872207'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872207' status='canceled' stop='1567342872207'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872207' status='canceled' stop='1567342872208'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872208' status='canceled' stop='1567342872208'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342872208' status='broken' stop='1567342872365'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342872208' status='passed' stop='1567342872209'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872209' status='broken' stop='1567342872365'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872365' status='canceled' stop='1567342872365'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872365' status='canceled' stop='1567342872366'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872366' status='canceled' stop='1567342872366'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342872366' status='broken' stop='1567342872532'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342872366' status='passed' stop='1567342872366'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872367' status='broken' stop='1567342872532'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872532' status='canceled' stop='1567342872532'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872532' status='canceled' stop='1567342872532'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872532' status='canceled' stop='1567342872532'>
+                    <name>When I enter the glasgow for whetherforecast</name>
+                    <title>When I enter the glasgow for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342872533' status='broken' stop='1567342872704'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342872533' status='passed' stop='1567342872533'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872534' status='broken' stop='1567342872704'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872704' status='canceled' stop='1567342872704'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872705' status='canceled' stop='1567342872705'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872705' status='canceled' stop='1567342872705'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342872705' status='broken' stop='1567342872870'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342872706' status='passed' stop='1567342872706'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872706' status='broken' stop='1567342872870'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872870' status='canceled' stop='1567342872870'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872870' status='canceled' stop='1567342872870'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872870' status='canceled' stop='1567342872870'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342872871' status='broken' stop='1567342873031'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342872871' status='passed' stop='1567342872871'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342872871' status='broken' stop='1567342873031'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873031' status='canceled' stop='1567342873031'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873032' status='canceled' stop='1567342873032'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873032' status='canceled' stop='1567342873032'>
+                    <name>When I enter the delhi for whetherforecast</name>
+                    <title>When I enter the delhi for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873033' status='broken' stop='1567342873182'>
+            <name>Verify the whetherForecast Application whether use can able to lunch the application or not</name>
+            <title>Verify the whetherForecast Application whether use can able to lunch the application or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873033' status='passed' stop='1567342873033'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873033' status='broken' stop='1567342873182'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873182' status='canceled' stop='1567342873183'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873183' status='canceled' stop='1567342873183'>
+                    <name>When I enter the delhi for whetherforecast</name>
+                    <title>When I enter the delhi for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873183' status='canceled' stop='1567342873183'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873183' status='broken' stop='1567342873327'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873183' status='passed' stop='1567342873184'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873184' status='broken' stop='1567342873327'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873327' status='canceled' stop='1567342873328'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873328' status='canceled' stop='1567342873328'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873328' status='canceled' stop='1567342873328'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873328' status='canceled' stop='1567342873328'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873329' status='canceled' stop='1567342873329'>
+                    <name>Then user should see Three hourly forcast for that "1"</name>
+                    <title>Then user should see Three hourly forcast for that "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873329' status='broken' stop='1567342873476'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873330' status='passed' stop='1567342873330'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873330' status='broken' stop='1567342873476'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873476' status='canceled' stop='1567342873476'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873476' status='canceled' stop='1567342873476'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873476' status='canceled' stop='1567342873476'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873476' status='canceled' stop='1567342873476'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873476' status='canceled' stop='1567342873477'>
+                    <name>Then user should see Three hourly forcast for that "2"</name>
+                    <title>Then user should see Three hourly forcast for that "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873477' status='broken' stop='1567342873631'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873478' status='passed' stop='1567342873478'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873478' status='broken' stop='1567342873631'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873631' status='canceled' stop='1567342873631'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873631' status='canceled' stop='1567342873631'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873631' status='canceled' stop='1567342873632'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873632' status='canceled' stop='1567342873632'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873632' status='canceled' stop='1567342873632'>
+                    <name>Then user should see Three hourly forcast for that "3"</name>
+                    <title>Then user should see Three hourly forcast for that "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873633' status='broken' stop='1567342873781'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873633' status='passed' stop='1567342873633'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873634' status='broken' stop='1567342873781'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873781' status='canceled' stop='1567342873781'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873781' status='canceled' stop='1567342873782'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873782' status='canceled' stop='1567342873782'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873782' status='canceled' stop='1567342873782'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873783' status='canceled' stop='1567342873783'>
+                    <name>Then user should see Three hourly forcast for that "4"</name>
+                    <title>Then user should see Three hourly forcast for that "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873784' status='broken' stop='1567342873934'>
+            <name>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</name>
+            <title>Verify that user can able to expand the forecast data and the user is getting forecast after every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873784' status='passed' stop='1567342873784'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873785' status='broken' stop='1567342873934'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873934' status='canceled' stop='1567342873935'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873935' status='canceled' stop='1567342873935'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873935' status='canceled' stop='1567342873935'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873935' status='canceled' stop='1567342873935'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873936' status='canceled' stop='1567342873936'>
+                    <name>Then user should see Three hourly forcast for that "5"</name>
+                    <title>Then user should see Three hourly forcast for that "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342873936' status='broken' stop='1567342874082'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342873936' status='passed' stop='1567342873937'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342873937' status='broken' stop='1567342874082'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874082' status='canceled' stop='1567342874082'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874082' status='canceled' stop='1567342874082'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874082' status='canceled' stop='1567342874082'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874082' status='canceled' stop='1567342874083'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874083' status='canceled' stop='1567342874083'>
+                    <name>Then Status of hourly forecast should be hidden for "1"</name>
+                    <title>Then Status of hourly forecast should be hidden for "1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342874083' status='broken' stop='1567342874268'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342874084' status='passed' stop='1567342874084'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874084' status='broken' stop='1567342874268'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874268' status='canceled' stop='1567342874269'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874269' status='canceled' stop='1567342874269'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874269' status='canceled' stop='1567342874269'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874269' status='canceled' stop='1567342874270'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874270' status='canceled' stop='1567342874270'>
+                    <name>Then Status of hourly forecast should be hidden for "2"</name>
+                    <title>Then Status of hourly forecast should be hidden for "2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342874270' status='broken' stop='1567342874416'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342874270' status='passed' stop='1567342874271'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874271' status='broken' stop='1567342874416'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874416' status='canceled' stop='1567342874416'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874416' status='canceled' stop='1567342874416'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874416' status='canceled' stop='1567342874416'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874416' status='canceled' stop='1567342874416'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874416' status='canceled' stop='1567342874417'>
+                    <name>Then Status of hourly forecast should be hidden for "3"</name>
+                    <title>Then Status of hourly forecast should be hidden for "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342874417' status='broken' stop='1567342874568'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342874417' status='passed' stop='1567342874417'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874418' status='broken' stop='1567342874568'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874568' status='canceled' stop='1567342874568'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874568' status='canceled' stop='1567342874569'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874569' status='canceled' stop='1567342874569'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874569' status='canceled' stop='1567342874569'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874569' status='canceled' stop='1567342874569'>
+                    <name>Then Status of hourly forecast should be hidden for "4"</name>
+                    <title>Then Status of hourly forecast should be hidden for "4"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342874570' status='broken' stop='1567342874724'>
+            <name>Verify that user can able to collapse the forecast data.</name>
+            <title>Verify that user can able to collapse the forecast data.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342874571' status='passed' stop='1567342874571'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874571' status='broken' stop='1567342874724'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874724' status='canceled' stop='1567342874724'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874725' status='canceled' stop='1567342874725'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874725' status='canceled' stop='1567342874725'>
+                    <name>When I enter the edinburgh for whetherforecast</name>
+                    <title>When I enter the edinburgh for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874725' status='canceled' stop='1567342874725'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874725' status='canceled' stop='1567342874725'>
+                    <name>Then Status of hourly forecast should be hidden for "5"</name>
+                    <title>Then Status of hourly forecast should be hidden for "5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342874726' status='broken' stop='1567342874870'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342874726' status='passed' stop='1567342874726'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874727' status='broken' stop='1567342874870'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874871' status='canceled' stop='1567342874871'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874871' status='canceled' stop='1567342874871'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874871' status='canceled' stop='1567342874871'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874871' status='canceled' stop='1567342874871'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342874872' status='broken' stop='1567342875043'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342874872' status='passed' stop='1567342874872'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342874873' status='broken' stop='1567342875043'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875043' status='canceled' stop='1567342875044'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875044' status='canceled' stop='1567342875044'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875044' status='canceled' stop='1567342875044'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875045' status='canceled' stop='1567342875045'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342875047' status='broken' stop='1567342875200'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342875047' status='passed' stop='1567342875048'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875048' status='broken' stop='1567342875200'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875200' status='canceled' stop='1567342875200'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875201' status='canceled' stop='1567342875201'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875201' status='canceled' stop='1567342875201'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875201' status='canceled' stop='1567342875201'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342875202' status='broken' stop='1567342875352'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342875202' status='passed' stop='1567342875202'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875202' status='broken' stop='1567342875352'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875352' status='canceled' stop='1567342875352'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875353' status='canceled' stop='1567342875353'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875353' status='canceled' stop='1567342875353'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875353' status='canceled' stop='1567342875353'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567342875354' status='broken' stop='1567342875495'>
+            <name>Weather app test</name>
+            <title>Weather app test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567342875354' status='passed' stop='1567342875355'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875355' status='broken' stop='1567342875495'>
+                    <name>Hook</name>
+                    <title>Hook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875495' status='canceled' stop='1567342875496'>
+                    <name>When I open the web url http://localhost:3000/</name>
+                    <title>When I open the web url http://localhost:3000/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875496' status='canceled' stop='1567342875496'>
+                    <name>Then I should be able to launch the application with header "Five Day Weather Forecast for"</name>
+                    <title>Then I should be able to launch the application with header "Five Day Weather Forecast for"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875496' status='canceled' stop='1567342875496'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567342875496' status='canceled' stop='1567342875496'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.sleep is not a function</message>
+                <stack-trace>TypeError: browser.sleep is not a function
+                    at World.sleep (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:7:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

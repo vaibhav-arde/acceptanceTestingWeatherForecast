@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567376388201' stop='1567376393283'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567376388207' status='passed' stop='1567376390372'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567376388208' status='passed' stop='1567376388209'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376389054' status='passed' stop='1567376390342'>
+                    <name>When I enter the L0ndon for whetherforecast</name>
+                    <title>When I enter the L0ndon for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376390342' status='passed' stop='1567376390371'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567376390372' status='passed' stop='1567376391849'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567376390372' status='passed' stop='1567376390373'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376390552' status='passed' stop='1567376391829'>
+                    <name>When I enter the 123456789 for whetherforecast</name>
+                    <title>When I enter the 123456789 for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376391829' status='passed' stop='1567376391849'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567376391849' status='passed' stop='1567376393283'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567376391849' status='passed' stop='1567376391850'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376392003' status='passed' stop='1567376393261'>
+                    <name>When I enter the !@£$%^&amp;*( for whetherforecast</name>
+                    <title>When I enter the !@£$%^&amp;*( for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376393261' status='passed' stop='1567376393282'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

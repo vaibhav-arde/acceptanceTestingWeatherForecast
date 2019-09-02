@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567376326843' stop='1567376331680'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567376326849' status='broken' stop='1567376328857'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567376326850' status='passed' stop='1567376326852'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376327598' status='passed' stop='1567376328831'>
+                    <name>When I enter the L0ndon for whetherforecast</name>
+                    <title>When I enter the L0ndon for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376328831' status='broken' stop='1567376328857'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>headerText is not defined</message>
+                <stack-trace>ReferenceError: headerText is not defined
+                    at World.headerText (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:34:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567376328858' status='broken' stop='1567376330283'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567376328859' status='passed' stop='1567376328859'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376329017' status='passed' stop='1567376330262'>
+                    <name>When I enter the 123456789 for whetherforecast</name>
+                    <title>When I enter the 123456789 for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376330262' status='broken' stop='1567376330283'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>headerText is not defined</message>
+                <stack-trace>ReferenceError: headerText is not defined
+                    at World.headerText (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:34:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567376330283' status='broken' stop='1567376331679'>
+            <name>Verify error message displayed for the invalid city name</name>
+            <title>Verify error message displayed for the invalid city name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567376330283' status='passed' stop='1567376330283'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376330428' status='passed' stop='1567376331659'>
+                    <name>When I enter the !@£$%^&amp;*( for whetherforecast</name>
+                    <title>When I enter the !@£$%^&amp;*( for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567376331659' status='broken' stop='1567376331679'>
+                    <name>Then I should be able to launch the application with header1 "Error retrieving the forecast"</name>
+                    <title>Then I should be able to launch the application with header1 "Error retrieving the forecast"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>headerText is not defined</message>
+                <stack-trace>ReferenceError: headerText is not defined
+                    at World.headerText (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:34:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

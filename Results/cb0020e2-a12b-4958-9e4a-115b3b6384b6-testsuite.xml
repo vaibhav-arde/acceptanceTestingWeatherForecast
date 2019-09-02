@@ -1,0 +1,232 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567401884258' stop='1567401893424'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567401884264' status='broken' stop='1567401886793'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567401884265' status='passed' stop='1567401884266'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401885280' status='passed' stop='1567401886593'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401886593' status='passed' stop='1567401886665'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401886665' status='broken' stop='1567401886793'>
+                    <name>Then For the 1 dominant wind condition should be validated</name>
+                    <title>Then For the 1 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>MostDominantCondition is not defined</message>
+                <stack-trace>ReferenceError: MostDominantCondition is not defined
+                    at weatherPage.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:187:37)
+                    at World.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:97:47)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567401886795' status='broken' stop='1567401888497'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567401886795' status='passed' stop='1567401886796'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401886965' status='passed' stop='1567401888224'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401888224' status='passed' stop='1567401888306'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401888306' status='broken' stop='1567401888497'>
+                    <name>Then For the 2 dominant wind condition should be validated</name>
+                    <title>Then For the 2 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>MostDominantCondition is not defined</message>
+                <stack-trace>ReferenceError: MostDominantCondition is not defined
+                    at weatherPage.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:187:37)
+                    at World.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:97:47)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567401888498' status='broken' stop='1567401890158'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567401888498' status='passed' stop='1567401888498'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401888661' status='passed' stop='1567401889909'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401889909' status='passed' stop='1567401889987'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401889987' status='broken' stop='1567401890158'>
+                    <name>Then For the 3 dominant wind condition should be validated</name>
+                    <title>Then For the 3 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>MostDominantCondition is not defined</message>
+                <stack-trace>ReferenceError: MostDominantCondition is not defined
+                    at weatherPage.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:187:37)
+                    at World.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:97:47)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567401890159' status='broken' stop='1567401891776'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567401890159' status='passed' stop='1567401890159'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401890298' status='passed' stop='1567401891519'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401891519' status='passed' stop='1567401891605'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401891605' status='broken' stop='1567401891776'>
+                    <name>Then For the 4 dominant wind condition should be validated</name>
+                    <title>Then For the 4 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>MostDominantCondition is not defined</message>
+                <stack-trace>ReferenceError: MostDominantCondition is not defined
+                    at weatherPage.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:187:37)
+                    at World.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:97:47)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567401891777' status='broken' stop='1567401893423'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567401891777' status='passed' stop='1567401891777'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401891924' status='passed' stop='1567401893150'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401893150' status='passed' stop='1567401893238'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567401893238' status='broken' stop='1567401893423'>
+                    <name>Then For the 5 dominant wind condition should be validated</name>
+                    <title>Then For the 5 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>MostDominantCondition is not defined</message>
+                <stack-trace>ReferenceError: MostDominantCondition is not defined
+                    at weatherPage.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:187:37)
+                    at World.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:97:47)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

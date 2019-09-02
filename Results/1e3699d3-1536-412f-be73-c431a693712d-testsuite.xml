@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567402252865' stop='1567402264828'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567402252870' status='broken' stop='1567402264827'>
+            <name>Daily forecast should summarise the aggregated rainfall</name>
+            <title>Daily forecast should summarise the aggregated rainfall</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567402252871' status='passed' stop='1567402252873'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567402253390' status='passed' stop='1567402254701'>
+                    <name>When I enter the dundee for whetherforecast</name>
+                    <title>When I enter the dundee for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567402254701' status='passed' stop='1567402254770'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567402254770' status='broken' stop='1567402264827'>
+                    <name>Then For the 1 dominant wind condition should be validated</name>
+                    <title>Then For the 1 dominant wind condition should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getAttribute on element with selector "sgv.icon[data-test="description-1-1"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getAttribute on element with selector "sgv.icon[data-test="description-1-1"]" because element wasn't found
+                    at &lt;anonymous>
+                    at weatherPage.getAttribute [as calWindCondition] (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:175:73)
+                    at World.calWindCondition (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:97:47)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567391008417' stop='1567391022282'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567391008423' status='passed' stop='1567391011740'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391008424' status='passed' stop='1567391008426'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391009305' status='passed' stop='1567391010707'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391010707' status='passed' stop='1567391010787'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391010787' status='passed' stop='1567391011739'>
+                    <name>Then user should see Three hourly forcast for that 1</name>
+                    <title>Then user should see Three hourly forcast for that 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391011741' status='passed' stop='1567391014397'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391011741' status='passed' stop='1567391011741'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391011911' status='passed' stop='1567391013227'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391013227' status='passed' stop='1567391013297'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391013297' status='passed' stop='1567391014396'>
+                    <name>Then user should see Three hourly forcast for that 2</name>
+                    <title>Then user should see Three hourly forcast for that 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391014397' status='passed' stop='1567391017053'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391014397' status='passed' stop='1567391014397'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391014559' status='passed' stop='1567391015872'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391015872' status='passed' stop='1567391015956'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391015956' status='passed' stop='1567391017052'>
+                    <name>Then user should see Three hourly forcast for that 3</name>
+                    <title>Then user should see Three hourly forcast for that 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391017053' status='passed' stop='1567391019678'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391017053' status='passed' stop='1567391017053'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391017204' status='passed' stop='1567391018505'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391018505' status='passed' stop='1567391018584'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391018584' status='passed' stop='1567391019677'>
+                    <name>Then user should see Three hourly forcast for that 4</name>
+                    <title>Then user should see Three hourly forcast for that 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567391019678' status='passed' stop='1567391022281'>
+            <name>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</name>
+            <title>Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567391019678' status='passed' stop='1567391019679'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391019836' status='passed' stop='1567391021137'>
+                    <name>When I enter the stirling for whetherforecast</name>
+                    <title>When I enter the stirling for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391021137' status='passed' stop='1567391021210'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567391021211' status='passed' stop='1567391022281'>
+                    <name>Then user should see Three hourly forcast for that 5</name>
+                    <title>Then user should see Three hourly forcast for that 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

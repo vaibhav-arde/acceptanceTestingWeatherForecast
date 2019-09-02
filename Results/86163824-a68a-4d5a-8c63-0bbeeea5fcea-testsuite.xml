@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567395032793' stop='1567395042016'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567395032799' status='passed' stop='1567395035060'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567395032800' status='passed' stop='1567395032802'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395033521' status='passed' stop='1567395034827'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395034827' status='passed' stop='1567395034897'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395034897' status='passed' stop='1567395035059'>
+                    <name>Then For the 1 maximum temperature should be summarised</name>
+                    <title>Then For the 1 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567395035061' status='passed' stop='1567395036846'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567395035061' status='passed' stop='1567395035061'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395035243' status='passed' stop='1567395036491'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395036491' status='passed' stop='1567395036575'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395036575' status='passed' stop='1567395036846'>
+                    <name>Then For the 2 maximum temperature should be summarised</name>
+                    <title>Then For the 2 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567395036846' status='passed' stop='1567395038555'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567395036846' status='passed' stop='1567395036847'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395037008' status='passed' stop='1567395038238'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395038238' status='passed' stop='1567395038309'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395038309' status='passed' stop='1567395038554'>
+                    <name>Then For the 3 maximum temperature should be summarised</name>
+                    <title>Then For the 3 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567395038555' status='passed' stop='1567395040293'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567395038555' status='passed' stop='1567395038556'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395038712' status='passed' stop='1567395039967'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395039967' status='passed' stop='1567395040039'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395040040' status='passed' stop='1567395040293'>
+                    <name>Then For the 4 maximum temperature should be summarised</name>
+                    <title>Then For the 4 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1567395040293' status='passed' stop='1567395042015'>
+            <name>Daily forecast should summarise the 3 hour data for maximum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for maximum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567395040294' status='passed' stop='1567395040294'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395040450' status='passed' stop='1567395041690'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395041690' status='passed' stop='1567395041772'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567395041772' status='passed' stop='1567395042015'>
+                    <name>Then For the 5 maximum temperature should be summarised</name>
+                    <title>Then For the 5 maximum temperature should be summarised</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

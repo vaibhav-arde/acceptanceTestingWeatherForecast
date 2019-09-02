@@ -1,0 +1,237 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1567397113268' stop='1567397180865'>
+    <name>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</name>
+    <title>As a whetherForecast service provider, I should be able to fetch the whether details from the application successfully</title>
+    <test-cases>
+        <test-case start='1567397113275' status='broken' stop='1567397125252'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567397113276' status='passed' stop='1567397113278'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397113826' status='passed' stop='1567397115144'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397115144' status='passed' stop='1567397115223'>
+                    <name>Then I should able to select a 1</name>
+                    <title>Then I should able to select a 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397115223' status='broken' stop='1567397125252'>
+                    <name>Then For the 1 aggregated rainfall should be validated</name>
+                    <title>Then For the 1 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "pan.rainfall[data-test="rainfall-1"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "pan.rainfall[data-test="rainfall-1"]" because element wasn't found
+                    at &lt;anonymous>
+                    at weatherPage.getText [as rainFall] (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:147:65)
+                    at World.rainFall (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:87:42)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567397125253' status='broken' stop='1567397136750'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567397125254' status='passed' stop='1567397125254'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397125426' status='passed' stop='1567397126665'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397126665' status='passed' stop='1567397126735'>
+                    <name>Then I should able to select a 2</name>
+                    <title>Then I should able to select a 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397126735' status='broken' stop='1567397136750'>
+                    <name>Then For the 2 aggregated rainfall should be validated</name>
+                    <title>Then For the 2 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "pan.rainfall[data-test="rainfall-2"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "pan.rainfall[data-test="rainfall-2"]" because element wasn't found
+                    at &lt;anonymous>
+                    at weatherPage.getText [as rainFall] (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:147:65)
+                    at World.rainFall (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:87:42)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567397136751' status='broken' stop='1567397153321'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567397136751' status='passed' stop='1567397136751'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397136943' status='passed' stop='1567397138189'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397138189' status='passed' stop='1567397143307'>
+                    <name>Then I should able to select a 3</name>
+                    <title>Then I should able to select a 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397143307' status='broken' stop='1567397153321'>
+                    <name>Then For the 3 aggregated rainfall should be validated</name>
+                    <title>Then For the 3 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "pan.rainfall[data-test="rainfall-3"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "pan.rainfall[data-test="rainfall-3"]" because element wasn't found
+                    at &lt;anonymous>
+                    at weatherPage.getText [as rainFall] (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:147:65)
+                    at World.rainFall (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:87:42)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567397153322' status='broken' stop='1567397169384'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567397153322' status='passed' stop='1567397153323'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397153490' status='passed' stop='1567397154703'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397154703' status='passed' stop='1567397159861'>
+                    <name>Then I should able to select a 4</name>
+                    <title>Then I should able to select a 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397159861' status='broken' stop='1567397169384'>
+                    <name>Then For the 4 aggregated rainfall should be validated</name>
+                    <title>Then For the 4 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "pan.rainfall[data-test="rainfall-4"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "pan.rainfall[data-test="rainfall-4"]" because element wasn't found
+                    at &lt;anonymous>
+                    at weatherPage.getText [as rainFall] (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:147:65)
+                    at World.rainFall (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:87:42)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1567397169385' status='broken' stop='1567397180864'>
+            <name>Daily forecast should summarise the 3 hour data for minimum temperatue</name>
+            <title>Daily forecast should summarise the 3 hour data for minimum temperatue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1567397169385' status='passed' stop='1567397169386'>
+                    <name>Given Launch Weather Forecast web application</name>
+                    <title>Given Launch Weather Forecast web application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397169542' status='passed' stop='1567397170778'>
+                    <name>When I enter the perth for whetherforecast</name>
+                    <title>When I enter the perth for whetherforecast</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397170778' status='passed' stop='1567397170847'>
+                    <name>Then I should able to select a 5</name>
+                    <title>Then I should able to select a 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1567397170848' status='broken' stop='1567397180864'>
+                    <name>Then For the 5 aggregated rainfall should be validated</name>
+                    <title>Then For the 5 aggregated rainfall should be validated</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "pan.rainfall[data-test="rainfall-5"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "pan.rainfall[data-test="rainfall-5"]" because element wasn't found
+                    at &lt;anonymous>
+                    at weatherPage.getText [as rainFall] (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/commonFunction/weatherPage.js:147:65)
+                    at World.rainFall (/Users/vaibhavbarde/Desktop/Project/VaibhaV/acceptingTestingWeatherForecast/features/step_definitions/wheather.js:87:42)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
