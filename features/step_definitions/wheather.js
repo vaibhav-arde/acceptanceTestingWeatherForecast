@@ -18,7 +18,7 @@ Then(/^I should be able to launch the application with header "([^"]*)"$/, funct
     expect(text).to.equal(headerText);
 });
 
-When(/^I enter the (.*) for whetherforecast$/, function (cityName) {
+When(/^I enter (.*) for weatherforecast$/, function (cityName) {
     weatherPage.clearCityInputField();
     weatherPage.enterCityName(cityName);
     // browser.pause(850)
