@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "reports": "allure generate allure-results/ && allure open"
   },
-  "author": "Prasad Sangpal",
+  "author": "VaibhaV Arde",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.5.5",
