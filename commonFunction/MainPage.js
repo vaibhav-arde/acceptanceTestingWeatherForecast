@@ -6,4 +6,8 @@ export default class MainPage {
     open() {
         browser.url('http://localhost:3000/');
     }
+
+    pageTitle() {
+        return browser.getTitle();
+    }
 }

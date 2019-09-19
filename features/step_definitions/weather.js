@@ -3,12 +3,20 @@ import assert from 'assert';
 import weatherPage from '../../commonFunction/weatherPage';
 import { expect } from 'chai';
 import { SlowBuffer } from 'buffer';
+import { config } from '../../wdio.conf';
 
 Given(/^Launch Weather Forecast web application$/, function (){
     weatherPage.open();
     // browser.url('http://localhost:3000/');
     // browser.pause(3000);
-    console.log(`I am here`);
+});
+
+Then(/^Page title should be "([^"]*)"$/, function(title){
+    let pageTitle = weatherPage.pageTitle();
+    // console.log('pageTitle ===>', pageTitle);
+    // console.log('title ===>', title);
+    expect(title).to.equal(pageTitle);
+
 });
 
 Then(/^I should be able to launch the application with header "([^"]*)"$/, function (text) {
@@ -18,9 +26,20 @@ Then(/^I should be able to launch the application with header "([^"]*)"$/, funct
     expect(text).to.equal(headerText);
 });
 
+Then(/^Validate text input field for city$/, function(){
+    let cityField = weatherPage.inputCity();
+    expect(true).to.equal(cityField);
+})
+
+Then(/^Verify default city to be "([^"]*)"$/, function (expectedCity){
+    let actualCity = weatherPage.defaultCity();
+    expect(expectedCity).to.equal(actualCity);
+})
+
 When(/^I enter (.*) for weatherforecast$/, function (cityName) {
     weatherPage.clearCityInputField();
     weatherPage.enterCityName(cityName);
+    // console.log('cityName ===>',cityName);
     // browser.pause(850)
 });
 
