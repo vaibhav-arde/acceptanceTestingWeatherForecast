@@ -47,7 +47,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
         | !@£$%^&*( |
         | null      |
 
-  @complete @test2 @threehourdata
+  @complete @threehourdata
   Scenario Outline: Verify that user is able to expand the forecast data and able to view forecast for every 3 hours.
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -61,7 +61,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
 
-  @complete @test3 @collapse
+  @complete @collapse
   Scenario Outline: Verify that user is able to collapse the forecast hour data.
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -75,7 +75,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
   
-  @complete @test4 @maximumtemperatue
+  @complete @maximumtemperatue
   Scenario Outline: Daily forecast should summarise the 3 hour data for maximum temperatue
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -89,7 +89,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
 
-  @complete @test5 @minimumtemperatue
+  @complete @minimumtemperatue
   Scenario Outline: Daily forecast should summarise the 3 hour data for minimum temperatue
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -103,7 +103,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
 
-  @complete @test6 @aggregatedrainfall
+  @complete @aggregatedrainfall
   Scenario Outline: Daily forecast should summarise the aggregated rainfall
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -117,7 +117,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
 
-  @complete @test7 @windcondition
+  @complete @windcondition
   Scenario Outline: Daily forecast should summarise the dominant wind condition
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -131,7 +131,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
 
-  @complete @test8 @windspeed
+  @complete @windspeed
   Scenario Outline: Daily forecast should summarise the dominant wind speed
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
@@ -145,7 +145,7 @@ Feature: As a weatherForecast service provider, I should be able to fetch the we
       | 4   | glasgow   |
       | 5   | perth     |
 
-  @complete @test9 @winddirection
+  @complete @winddirection
   Scenario Outline: Daily forecast should summarise the dominant wind direction
     When I enter <cityName> for weatherforecast
     Then I should able to select a <day>
